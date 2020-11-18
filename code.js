@@ -87,3 +87,8 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+// NAV BAR HIDE IN MOBILE
+$('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
